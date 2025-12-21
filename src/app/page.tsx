@@ -9,6 +9,7 @@ import { TestimonialCard } from "@/components/TestimonialCard";
 
 
 
+
 const WHATSAPP_URL =
   "https://wa.me/919769761766?text=Hi%20Dietitian%20Ashwini%2C%20I%27d%20like%20to%20book%20a%20diet%20consultation.";
 
@@ -72,10 +73,10 @@ export default function HomePage() {
                   href="/how-it-works"
                   className="inline-flex items-center gap-3 rounded-full border border-warmGray-300 bg-white/80 px-7 py-3.5 font-heading text-sm font-semibold text-warmGray-800 shadow-sm backdrop-blur transition-all hover:bg-white hover:shadow-lg dark:border-warmGray-600 dark:bg-warmGray-900/80 dark:text-warmGray-50"
                 >
-                  <span className="flex h-8 w-8 items-center justify-center rounded-full bg-primary-500 text-xs text-white">
+                  {/* <span className="flex h-8 w-8 items-center justify-center rounded-full bg-primary-500 text-xs text-white">
                     ▶
-                  </span>
-                  Watch How It Works
+                  </span> */}
+                  How It Works
                 </Link>
               </div>
 
@@ -105,7 +106,7 @@ export default function HomePage() {
             >
               <div className="relative overflow-hidden rounded-[2.5rem] border border-white/70 bg-white shadow-2xl">
   <NextImage
-    src="/hero-ashwini.jpg"
+    src="/ashwini-diet.jpeg"
     alt="Diet consultation with Ashwini"
     width={640}
     height={800}

@@ -4,7 +4,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { ThemeToggle } from "./ThemeToggle";
+// import { ThemeToggle } from "./ThemeToggle";
 
 const NAV_ITEMS = [
   { href: "/", label: "Home" },
@@ -71,7 +71,7 @@ export function Navbar() {
           </div>
 
           <div className="flex items-center gap-4">
-            <ThemeToggle />
+            {/* <ThemeToggle /> */}
             <a
               href={WHATSAPP_URL}
               target="_blank"
@@ -85,7 +85,7 @@ export function Navbar() {
 
         {/* Mobile actions */}
         <div className="flex items-center gap-3 lg:hidden">
-          <ThemeToggle />
+          {/* <ThemeToggle /> */}
           <button
             type="button"
             onClick={() => setOpen((v) => !v)}
